@@ -1,0 +1,85 @@
+body{
+    font-family: sans-serif;
+    width: 1000px;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(48,8,8,1) 0%, rgba(221,23,13,1) 35%, rgba(68,11,8,1) 100%);
+}
+header{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.banner h1{
+    color: white;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+.banner img{
+    width: 60px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50% ;
+    
+}
+nav{
+    
+}
+
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    padding-right: 30px;
+    list-style-type: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display:inline-block;
+}
+section{
+    display: flex;
+    background-color: black;
+}
+section aside .top h2{
+    color: white;
+    margin-top: 0px;
+    padding:10px 0px 10px 0px ;
+    background-color: grey;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+section aside .top ul{
+       background-color: white;
+       padding: 10px;
+       
+}
+section aside .top ul li{
+       margin-bottom: 10px;
+}
+section aside .top ul li a{
+    color: black;
+    text-decoration: none;
+
+}
+main .bottom{
+    display: flex;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    padding-right: 10px;
+}
