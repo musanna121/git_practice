@@ -1,8 +1,7 @@
 body{
-    font-family: sans-serif;
     width: 1000px;
     margin: auto;
-    background: linear-gradient(90deg, rgba(48,8,8,1) 0%, rgba(221,23,13,1) 35%, rgba(68,11,8,1) 100%);
+    background: linear-gradient(red 5%,black 20% ,red 40%, black 80%);
 }
 header{
     background-image: url("back.jpg");
@@ -28,7 +27,11 @@ header{
     
 }
 nav{
-    
+    background-color: black;
+    padding: 5px;
+    margin: 10px 0px 10px ;
+
+
 }
 
 nav ul{
@@ -38,48 +41,178 @@ nav ul{
 nav ul li{
     padding-right: 30px;
     list-style-type: none;
+    color: white;
+    display:inline-block;
+    padding-left: px;
 }
 nav ul li a{
     color: white;
     text-decoration: none;
     display:inline-block;
+    padding-right: 23px;
 }
 section{
     display: flex;
     background-color: black;
 }
-section aside .top h2{
+aside{
+    width: 650px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+aside .top{
+
+}
+aside .top h2{
     color: white;
-    margin-top: 0px;
-    padding:10px 0px 10px 0px ;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding:10px;
     background-color: grey;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 
 }
-section aside .top ul{
+aside .top ul{
        background-color: white;
-       padding: 10px;
+       padding: 10px 20px 10px 30px;
+       margin: 0px;
+       border-bottom-left-radius: 5px;
+       border-bottom-right-radius: 5px;
        
 }
-section aside .top ul li{
-       margin-bottom: 10px;
+aside .top ul li{
+    text-decoration: underline;
+      color: black;
+      border-bottom: 1px solid gray;
+      padding-left: 15px;
+      
 }
-section aside .top ul li a{
+aside .top ul li a{
     color: black;
     text-decoration: none;
+}
+aside .bottom h2{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding:10px;
+    background-color: grey;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+     
+}
+aside .bottom ul{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  
 
 }
+
+aside .bottom ul li{
+   color: black;
+   margin-top: 0px;
+   padding-top: 0px;
+  
+}
+main{
+    background-color: gray;
+    margin: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+main .top{
+   
+    padding: 10px
+   
+}
+main .top h2{  
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+    color: white;
+    padding: 0px 10px;
+    margin: 0px;
+}
+main .top p{
+    
+    color: rgb(223, 215, 215);
+}
+main .top ul{
+    padding-left: 18px;
+    color: white;
+    font-weight: bold;
+}
 main .bottom{
+    padding: 10px 0px 10px 10px;
     display: flex;
+    background-color: gray;
+  
+}
+main .bottom .left{
+    color: white;
+    border-right: 1px solid white;
+}
+main .bottom .left h2{
+    margin-left: 10px;
+}
+main .bottom .left p{
+    padding-right: 10px;
+    color: rgb(226, 218, 218);
+}
+main .bottom .right{
+    color: white;
+}
+main .bottom .right{
+    padding-left:30px;
+}
+main .bottom .right h2{
+    margin-left:20px;
+
+}
+main .bottom .right p{
+    margin-right: 10px;
+    color: rgb(226, 218, 218);
+
 }
 footer{
+    background: linear-gradient(rgb(77, 2, 2),black);
     display: flex;
     justify-content: space-between;
+    color: white;
+}
+footer p{
+    padding-left: 10px;
 }
 footer ul{
-    display: flex;
+   color: white;
+   display: flex;
 }
 footer ul li{
-    padding-right: 10px;
+    list-style-type: none;
+    
+}
+footer ul li a{
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    padding-right:10px;
+    padding-left:10px;
+}
+.spanone{
+    color: white;
+    font-weight: bold;
+}
+.spantwo{
+    color:skyblue;
+    text-decoration: underline;
+}
+.red{
+    color: red;
 }
